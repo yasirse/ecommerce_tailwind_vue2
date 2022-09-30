@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: "jit",
-  purge: [
-    './resources/views/landing.blade.php',
-  ],
   content: ["./resources/**/*.blade.php",
   "./resources/**/*.js",
   "./resources/**/*.vue",],

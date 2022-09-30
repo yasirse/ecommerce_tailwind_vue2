@@ -7,6 +7,7 @@
     <title>Document</title>
     @vite('resources/css/app.css')
     @vite('resources/js/script.js')
+   
    </head>
 <body>
   <div class="hidden lg:block  main-navbar  bg-theme-black h-screen lg:h-auto text-gray-100 w-full  left-0 top-0 py-6 lg:py-0">
@@ -95,8 +96,8 @@
         </button>
       </div>
     </div>
-    <div class="container mx-auto px-5 lg:px-0 " style="background-image: {{ url('/images/addidas_shoe.jpg') }}">
-        
+   {{--  <div class="container mx-auto px-5 lg:px-0 " style="background-image: {{ url('/images/addidas_shoe.jpg') }}">
+        --}} 
        
        
       

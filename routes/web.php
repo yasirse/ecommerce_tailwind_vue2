@@ -36,6 +36,6 @@ Route::get('/landing', function () {
     return view('landing-front');
 });
 
-Route::get('/amirlanding', function () {
-    return view('amirlanding');
+Route::get('/yasir', function () {
+    return view('yasir');
 });
